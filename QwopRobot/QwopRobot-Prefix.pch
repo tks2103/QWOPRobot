@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'QwopRobot' target in the 'QwopRobot' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

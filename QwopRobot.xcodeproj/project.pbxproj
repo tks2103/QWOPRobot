@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		872B2BF515FA393C003BB317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872B2BF415FA393C003BB317 /* Foundation.framework */; };
+		872B2BF815FA393C003BB317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B2BF715FA393C003BB317 /* main.m */; };
+		872B2C0215FA3D24003BB317 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872B2C0115FA3D24003BB317 /* AppKit.framework */; };
+		872B2C0515FA40F7003BB317 /* QWOPRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 872B2C0415FA40F7003BB317 /* QWOPRobot.m */; };
+		876FF8E415FD02A0002623CB /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF8E315FD02A0002623CB /* Algorithm.m */; };
+		876FF8F115FD4CAB002623CB /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = 876FF8F015FD4CAB002623CB /* Move.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		872B2BEE15FA393C003BB317 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		872B2BF015FA393C003BB317 /* QwopRobot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = QwopRobot; sourceTree = BUILT_PRODUCTS_DIR; };
+		872B2BF415FA393C003BB317 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		872B2BF715FA393C003BB317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		872B2BFA15FA393C003BB317 /* QwopRobot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QwopRobot-Prefix.pch"; sourceTree = "<group>"; };
+		872B2BFB15FA393D003BB317 /* QwopRobot.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = QwopRobot.1; sourceTree = "<group>"; };
+		872B2C0115FA3D24003BB317 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		872B2C0315FA40F7003BB317 /* QWOPRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWOPRobot.h; sourceTree = "<group>"; };
+		872B2C0415FA40F7003BB317 /* QWOPRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWOPRobot.m; sourceTree = "<group>"; };
+		876FF8E215FD02A0002623CB /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		876FF8E315FD02A0002623CB /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
+		876FF8EF15FD4CAB002623CB /* Move.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		876FF8F015FD4CAB002623CB /* Move.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Move.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		872B2BED15FA393C003BB317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872B2C0215FA3D24003BB317 /* AppKit.framework in Frameworks */,
+				872B2BF515FA393C003BB317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		872B2BE515FA393C003BB317 = {
+			isa = PBXGroup;
+			children = (
+				872B2C0115FA3D24003BB317 /* AppKit.framework */,
+				872B2BF615FA393C003BB317 /* QwopRobot */,
+				872B2BF315FA393C003BB317 /* Frameworks */,
+				872B2BF115FA393C003BB317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		872B2BF115FA393C003BB317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				872B2BF015FA393C003BB317 /* QwopRobot */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		872B2BF315FA393C003BB317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				872B2BF415FA393C003BB317 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		872B2BF615FA393C003BB317 /* QwopRobot */ = {
+			isa = PBXGroup;
+			children = (
+				872B2BF715FA393C003BB317 /* main.m */,
+				872B2C0315FA40F7003BB317 /* QWOPRobot.h */,
+				872B2C0415FA40F7003BB317 /* QWOPRobot.m */,
+				876FF8E215FD02A0002623CB /* Algorithm.h */,
+				876FF8E315FD02A0002623CB /* Algorithm.m */,
+				876FF8EF15FD4CAB002623CB /* Move.h */,
+				876FF8F015FD4CAB002623CB /* Move.m */,
+				872B2BFB15FA393D003BB317 /* QwopRobot.1 */,
+				872B2BF915FA393C003BB317 /* Supporting Files */,
+			);
+			path = QwopRobot;
+			sourceTree = "<group>";
+		};
+		872B2BF915FA393C003BB317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				872B2BFA15FA393C003BB317 /* QwopRobot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		872B2BEF15FA393C003BB317 /* QwopRobot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 872B2BFE15FA393D003BB317 /* Build configuration list for PBXNativeTarget "QwopRobot" */;
+			buildPhases = (
+				872B2BEC15FA393C003BB317 /* Sources */,
+				872B2BED15FA393C003BB317 /* Frameworks */,
+				872B2BEE15FA393C003BB317 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QwopRobot;
+			productName = QwopRobot;
+			productReference = 872B2BF015FA393C003BB317 /* QwopRobot */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		872B2BE715FA393C003BB317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "SNAP Interactive";
+			};
+			buildConfigurationList = 872B2BEA15FA393C003BB317 /* Build configuration list for PBXProject "QwopRobot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 872B2BE515FA393C003BB317;
+			productRefGroup = 872B2BF115FA393C003BB317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				872B2BEF15FA393C003BB317 /* QwopRobot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		872B2BEC15FA393C003BB317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				872B2BF815FA393C003BB317 /* main.m in Sources */,
+				872B2C0515FA40F7003BB317 /* QWOPRobot.m in Sources */,
+				876FF8E415FD02A0002623CB /* Algorithm.m in Sources */,
+				876FF8F115FD4CAB002623CB /* Move.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		872B2BFC15FA393D003BB317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		872B2BFD15FA393D003BB317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		872B2BFF15FA393D003BB317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QwopRobot/QwopRobot-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		872B2C0015FA393D003BB317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QwopRobot/QwopRobot-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		872B2BEA15FA393C003BB317 /* Build configuration list for PBXProject "QwopRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872B2BFC15FA393D003BB317 /* Debug */,
+				872B2BFD15FA393D003BB317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		872B2BFE15FA393D003BB317 /* Build configuration list for PBXNativeTarget "QwopRobot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				872B2BFF15FA393D003BB317 /* Debug */,
+				872B2C0015FA393D003BB317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 872B2BE715FA393C003BB317 /* Project object */;
+}
