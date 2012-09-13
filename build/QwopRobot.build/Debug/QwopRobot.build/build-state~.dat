@@ -1,0 +1,98 @@
+TQwopRobot
+v3
+r1
+cCheck dependencies
+cProcessPCH /var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch.pth QwopRobot/QwopRobot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/main.o /Users/tsinha/src/QwopRobot/QwopRobot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/tsinha/src/QwopRobot/build/Debug/QwopRobot normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D879A5A00000000000000EE
+t1300732506
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D66164400000000000C7160
+t1298536004
+s815456
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC401D100000000000013E6
+t1287913937
+s5094
+
+N/Users/tsinha/src/QwopRobot/QwopRobot/QwopRobot-Prefix.pch
+c00000000504A01BC000000000000009F
+t1347027388
+s159
+i<Foundation/Foundation.h>
+
+N/Users/tsinha/src/QwopRobot/QwopRobot/main.m
+c00000000504A01BC0000000000000170
+t1347027388
+s368
+i<Foundation/Foundation.h>
+
+N/Users/tsinha/src/QwopRobot/build/Debug/QwopRobot
+t2
+s0
+
+N/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/QwopRobot.LinkFileList
+c00000000504A01D40000000000000065
+t1347027412
+s101
+
+N/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch.pth
+t2
+s0
+
+CBuild AST from /Users/tsinha/src/QwopRobot/QwopRobot/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3c31a75439fab541^715ab45439fab541^---0#1#0#--18"Check dependencies
+
+CCompileC build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/main.o /Users/tsinha/src/QwopRobot/QwopRobot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368720213.344780
+e368720213.418242
+r1
+xCompileC
+xbuild/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/main.o
+x/Users/tsinha/src/QwopRobot/QwopRobot/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Compile /Users/tsinha/src/QwopRobot/QwopRobot/main.m0667585539fab541^27136b5539fab541^---0#0#0#-19%DVTDocumentLocation2@60"file://localhost/Users/tsinha/src/QwopRobot/QwopRobot/main.m0000000000000000^1708"CompileC build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/main.o QwopRobot/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tsinha/src/QwopRobot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-generated-files.hmap -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-own-target-headers.hmap -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-all-target-headers.hmap -iquote /Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-project-headers.hmap -I/Users/tsinha/src/QwopRobot/build/Debug/include -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/DerivedSources/x86_64 -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/DerivedSources -F/Users/tsinha/src/QwopRobot/build/Debug -include /var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch -c /Users/tsinha/src/QwopRobot/QwopRobot/main.m -o /Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/main.o
+
+CLd /Users/tsinha/src/QwopRobot/build/Debug/QwopRobot normal x86_64
+s368720213.419496
+e368720213.478278
+r1
+xLd
+x/Users/tsinha/src/QwopRobot/build/Debug/QwopRobot
+xnormal
+xx86_64
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Link /Users/tsinha/src/QwopRobot/build/Debug/QwopRobotc9756b5539fab541^58717a5539fab541^---0#0#0#--510"Ld build/Debug/QwopRobot normal x86_64    cd /Users/tsinha/src/QwopRobot    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/tsinha/src/QwopRobot/build/Debug -F/Users/tsinha/src/QwopRobot/build/Debug -filelist /Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/Objects-normal/x86_64/QwopRobot.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/tsinha/src/QwopRobot/build/Debug/QwopRobot
+
+CProcessPCH /Users/tsinha/Library/Developer/Xcode/DerivedData/QwopRobot-hczahsczmeveurbbklbfgkuvzgtr/Index/PrecompiledHeaders/QwopRobot-Prefix-chmurugchogmeydubruvmrtahiow_ast/QwopRobot-Prefix.pch.pth QwopRobot/QwopRobot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch.pth QwopRobot/QwopRobot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s368720212.698467
+e368720213.343536
+r1
+xProcessPCH
+x/var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch.pth
+xQwopRobot/QwopRobot-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile QwopRobot/QwopRobot-Prefix.pch09fbb25439fab541^dcf4575539fab541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/tsinha/src/QwopRobot/QwopRobot/QwopRobot-Prefix.pch0000000000000000^1735"ProcessPCH /var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch.pth QwopRobot/QwopRobot-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tsinha/src/QwopRobot    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-generated-files.hmap -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-own-target-headers.hmap -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-all-target-headers.hmap -iquote /Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/QwopRobot-project-headers.hmap -I/Users/tsinha/src/QwopRobot/build/Debug/include -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/DerivedSources/x86_64 -I/Users/tsinha/src/QwopRobot/build/QwopRobot.build/Debug/QwopRobot.build/DerivedSources -F/Users/tsinha/src/QwopRobot/build/Debug -c /Users/tsinha/src/QwopRobot/QwopRobot/QwopRobot-Prefix.pch -o /var/folders/Zx/Zx5O7UoWFSCNEMD3VNon1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/QwopRobot-Prefix-ezpekvnhtswikjbhxufbtlxjpmxt/QwopRobot-Prefix.pch.pth
+
